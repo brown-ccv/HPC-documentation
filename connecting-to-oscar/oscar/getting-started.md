@@ -122,7 +122,7 @@ module: loading 'workshop/2.0'
 [mhamilton@login001 ~]$
 ```
 
-For a list of all PyModule commands see [Software Modules](slurm/software/). If you have a request for software to be installed on Oscar, email support@ccv.brown.edu.
+For a list of all PyModule commands see [Software Modules](software/). If you have a request for software to be installed on Oscar, email support@ccv.brown.edu.
 
 ## Using a Desktop on Oscar
 

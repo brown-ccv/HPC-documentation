@@ -8,7 +8,7 @@ weight: 0
 icon: check
 ---
 
-# Oscar's Filesystem
+# Managing Files
 
 CCV uses IBM's General Parallel File System \(GPFS\). Users have a home, data, and scratch space.
 

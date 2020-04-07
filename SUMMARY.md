@@ -4,7 +4,7 @@
 * [Quickstart Guide](getting-started.md)
 * [Citing CCV](citing-ccv.md)
 
-## Connecting to Oscar
+## About Oscar <a id="connecting-to-oscar"></a>
 
 * [Connecting to Oscar](connecting-to-oscar/connecting/README.md)
   * [SSH \(Terminal\)](connecting-to-oscar/connecting/ssh/README.md)
@@ -13,34 +13,37 @@
   * [VNC \(Virtual Desktop\)](connecting-to-oscar/connecting/vnc.md)
   * [CIFS  non-AD \(Local Mount\)](connecting-to-oscar/connecting/cifs-non-ad-local-mount.md)
   * [CIFS \(Local Mount\)](connecting-to-oscar/connecting/cifs.md)
-
-## Accounts on Oscar
-
-* [Account Types](accounts-on-oscar/account-types.md)
-* [Passwords](accounts-on-oscar/passwords.md)
-
-## Submitting jobs
-
-* [Slurm](submitting-jobs/slurm/README.md)
-  * [Partitions](submitting-jobs/slurm/partitions/README.md)
-    * [Large Memory Nodes on Oscar](submitting-jobs/slurm/partitions/large-mem.md)
-  * [Priority](submitting-jobs/slurm/condo-priority-jobs.md)
-  * [Running Jobs](submitting-jobs/slurm/shared-machine/README.md)
-    * [Interactive Jobs](submitting-jobs/slurm/shared-machine/interact.md)
-    * [Batch Jobs](submitting-jobs/slurm/shared-machine/batch.md)
-    * [Job Arrays](submitting-jobs/slurm/shared-machine/array.md)
-    * [Dependent Jobs](submitting-jobs/slurm/shared-machine/dependent-jobs.md)
-    * [Managing Jobs](submitting-jobs/slurm/shared-machine/managing-jobs.md)
-    * [MPI Jobs](submitting-jobs/slurm/shared-machine/mpi-jobs.md)
+* [Account Types](connecting-to-oscar/account-types.md)
+* [Passwords](connecting-to-oscar/passwords.md)
+* [Slurm](connecting-to-oscar/slurm/README.md)
+  * [Partitions](connecting-to-oscar/slurm/partitions/README.md)
+    * [Large Memory Nodes on Oscar](connecting-to-oscar/slurm/partitions/large-mem.md)
+  * [Priority](connecting-to-oscar/slurm/condo-priority-jobs.md)
+  * [Running Jobs](connecting-to-oscar/slurm/shared-machine/README.md)
+    * [Interactive Jobs](connecting-to-oscar/slurm/shared-machine/interact.md)
+    * [Batch Jobs](connecting-to-oscar/slurm/shared-machine/batch.md)
+    * [Job Arrays](connecting-to-oscar/slurm/shared-machine/array.md)
+    * [Dependent Jobs](connecting-to-oscar/slurm/shared-machine/dependent-jobs.md)
+    * [Managing Jobs](connecting-to-oscar/slurm/shared-machine/managing-jobs.md)
+    * [MPI Jobs](connecting-to-oscar/slurm/shared-machine/mpi-jobs.md)
+* [Software on Oscar](connecting-to-oscar/software/README.md)
+  * [Using Modules](connecting-to-oscar/software/modules.md)
+  * [Installing software](connecting-to-oscar/software/installing-software/README.md)
+    * [Installing Python Packages](connecting-to-oscar/software/installing-software/python-installs.md)
+    * [Installing R Packages](connecting-to-oscar/software/installing-software/r-installs.md)
+    * [Building from Source](connecting-to-oscar/software/installing-software/building.md)
+* [Managing Files](connecting-to-oscar/filesystem/README.md)
+  * [Transferring Files to and from Oscar](connecting-to-oscar/filesystem/filetransfer/README.md)
+    * [Using Globus](connecting-to-oscar/filesystem/filetransfer/using-globus.md)
+  * [Transferring Files between Oscar and files.brown.edu](connecting-to-oscar/filesystem/filetransfer-isilon.md)
+  * [Restoring Deleted Files](connecting-to-oscar/filesystem/restore.md)
+  * [Best Practices for I/O](connecting-to-oscar/filesystem/io-best-practices.md)
+* [GPUs on Oscar](connecting-to-oscar/gpus/README.md)
+  * [Submitting GPU Jobs](connecting-to-oscar/gpus/submit-gpu.md)
+  * [Compiling CUDA](connecting-to-oscar/gpus/cuda-compiling.md)
 
 ## Managing files
 
-* [Oscar's Filesystem](managing-files/filesystem/README.md)
-  * [Transferring Files to and from Oscar](managing-files/filesystem/filetransfer/README.md)
-    * [Using Globus](managing-files/filesystem/filetransfer/using-globus.md)
-  * [Transferring Files between Oscar and files.brown.edu](managing-files/filesystem/filetransfer-isilon.md)
-  * [Restoring Deleted Files](managing-files/filesystem/restore.md)
-  * [Best Practices for I/O](managing-files/filesystem/io-best-practices.md)
 * [Version Control](managing-files/version-control.md)
 
 ## Getting Help
@@ -51,21 +54,6 @@
   * [Meet with CCV Staff](getting-help/getting-help/meet-ccv.md)
 * [Common Problems](getting-help/common-problems.md)
 * [FAQ](getting-help/faq.md)
-
-## GPU Computing
-
-* [GPUs on Oscar](gpu-computing/gpus/README.md)
-  * [Submitting GPU Jobs](gpu-computing/gpus/submit-gpu.md)
-  * [Compiling CUDA](gpu-computing/gpus/cuda-compiling.md)
-
-## Software
-
-* [Software on Oscar](software/software/README.md)
-  * [Using Modules](software/software/modules.md)
-  * [Installing software](software/software/installing-software/README.md)
-    * [Installing Python Packages](software/software/installing-software/python-installs.md)
-    * [Installing R Packages](software/software/installing-software/r-installs.md)
-    * [Building from Source](software/software/installing-software/building.md)
 
 ## Commonly Used Software <a id="common-soft"></a>
 

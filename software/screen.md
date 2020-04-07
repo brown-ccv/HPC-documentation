@@ -2,7 +2,7 @@
 
 `screen` is a "terminal multiplexer", it enables a number of terminals \(or windows\) to be accessed and controlled from a single terminal. `screen` is a great way to save an interactive session between connections to oscar. You can reconnect to the session from anywhere!
 
-### Screen commands
+## Screen commands
 
 Common commands are:
 
@@ -13,7 +13,7 @@ Common commands are:
 * detach and logout \(quick exit\): `Ctrl+a d d`  
 * kill a screen session: `screen -XS session_name quit`
 
-### Reconnecting to your screen session
+## Reconnecting to your screen session
 
 {% hint style="warning" %}
 There are several login nodes in Oscar, and the node from where you launched `screen` matters! That is, you can only reconnect from the login node in which you launched `screen` from
@@ -27,7 +27,7 @@ In order to reconnect to a running `screen` session, you need to be connected to
 mkdir ~/.screen && chmod 700 ~/.screen
 ```
 
-*  Put the following line into your /.bashrc.  This tells the screen program to save the information of your screen sessions  in  the directory created in the previous step . This allows you to query your screen sessions across different login nodes. To make this change effective in your current sessions, you need run 'source /.bashrc' in each of your current session . However, you do not need to run 'source /bashrc' in your new sessions. 
+* Put the following line into your /.bashrc.  This tells the screen program to save the information of your screen sessions  in  the directory created in the previous step . This allows you to query your screen sessions across different login nodes. To make this change effective in your current sessions, you need run 'source /.bashrc' in each of your current session . However, you do not need to run 'source /bashrc' in your new sessions. 
 
 ```text
 export SCREENDIR=$HOME/.screen
@@ -38,6 +38,4 @@ export SCREENDIR=$HOME/.screen
 ```text
 screen -S experiment1-login003
 ```
-
-
 

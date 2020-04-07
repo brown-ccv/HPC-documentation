@@ -12,7 +12,7 @@ icon: check
 
 ## Compiling with CUDA
 
-To compile a CUDA program on Oscar, first load the CUDA [module](/doc/software) with:
+To compile a CUDA program on Oscar, first load the CUDA [module](https://github.com/brown-ccv/HPC-documentation/tree/274acf2ee119a42697ed887d0deb64f3f06d57c1/doc/software/README.md) with:
 
 ```text
 $ module load cuda
@@ -24,7 +24,7 @@ The CUDA compiler is called `nvcc`, and for compiling a simple CUDA program it u
 $ nvcc -o program source.cu
 ```
 
-#### Optimizations for Fermi
+### Optimizations for Fermi
 
 The Oscar GPU nodes feature NVIDIA M2050 cards with the Fermi architecture, which supports CUDA's "compute capability" 2.0. To fully utilize the hardware optimizations available in this architecture, add the `-arch=sm_20` flag to your compile line:
 
@@ -34,7 +34,7 @@ $ nvcc -arch=sm_20 -o program source.cu
 
 This means that the resulting executable will not be backwards-compatible with earlier GPU architectures, but this should not be a problem since CCV nodes only use the M2050.
 
-#### Memory caching
+### Memory caching
 
 The Fermi architecture has two levels of memory cache similar to the L1 and L2 caches of a CPU. The 768KB L2 cache is shared by all multiprocessors, while the L1 cache by default uses only 16KB of the available 64KB shared memory on each multiprocessor.
 

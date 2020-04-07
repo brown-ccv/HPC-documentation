@@ -15,11 +15,11 @@ What model or tool to choose depends on your requirements. Both SVN and Git are 
 * [Apache Subversion](https://subversion.apache.org/docs) [Documentation](https://subversion.apache.org/docs)
 * [Atlassian Git Tutorials and Training](https://www.atlassian.com/git/tutorials)
 
-### SVN at Brown
+## SVN at Brown
 
 CIS at Brown maintains a server where you can host your SVN repository. See this page for more information: [https://it.brown.edu/services/type/version-control-subversion](https://it.brown.edu/services/type/version-control-subversion)
 
-### Git Configuration
+## Git Configuration
 
 While using Git on Oscar, make sure that you [configure Git](https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-config) to have your correct Name and Email ID to avoid confusion while working with remote repositories \(eg. GitHub, BitBucket\).
 

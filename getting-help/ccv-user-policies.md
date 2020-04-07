@@ -8,7 +8,7 @@ description: >-
 
 ## Policy Purpose
 
-This policy establishes requirements for the use and management of Brown University’s Center for Computation and Visualization resources to ensure their integrity, confidentiality and availability in support of appropriate education, research, outreach, and administrative objectives. 
+This policy establishes requirements for the use and management of Brown University’s Center for Computation and Visualization resources to ensure their integrity, confidentiality and availability in support of appropriate education, research, outreach, and administrative objectives.
 
 ## Account Usage
 
@@ -20,7 +20,7 @@ HPC users are not permitted to:
 
 ## Storage
 
- ****Each user \(premium or exploratory\) gets 20GB Home Directory, 512GB short-term Scratch, and 256G Data directory \(shared amongst the members of group\)
+_\*\*_Each user \(premium or exploratory\) gets 20GB Home Directory, 512GB short-term Scratch, and 256G Data directory \(shared amongst the members of group\)
 
 * **Files in Scratch Directory not accessed for last 30 days are automatically purged.** CCV only stores snapshots for 7 days after that files will be automatically deleted. 
 * PI has the ultimate access to Data Directory - if a student leaves Brown the files in Data directory will be owned by the PI.

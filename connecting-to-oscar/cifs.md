@@ -18,7 +18,7 @@ To use CIFS you will need to be on the Brown network. On campus use the 'Brown' 
 Users should ensure that the date and time are set correctly on their machine. Now you are ready to mount your CCV directories locally. Instructions for each of the various operating systems are given below.
 
 {% hint style="warning" %}
-If you have problems with `smb://smb.ccv.brown.edu`  
+If you have problems with `smb://smb.ccv.brown.edu`
 
 You can use the old CIFS mount`smb://oscarcifs.ccv.brown.edu.`[`Documentation here`](cifs-non-ad-local-mount.md)
 {% endhint %}
@@ -103,6 +103,4 @@ You can use the old CIFS mount`smb://oscarcifs.ccv.brown.edu.`[`Documentation he
 7. Enter your AD password and click "OK"
 
 You can now access your home directory through Windows Explorer with the assigned drive letter. Your data and scratch directories are available as the subdirectories \(`~/data` and `~/scratch`\) of your home directory.
-
-
 

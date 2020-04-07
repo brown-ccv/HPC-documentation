@@ -12,9 +12,9 @@ icon: check
 
 The department file servers \(also known as Isilon\) are:
 
-* \\files.brown.edu\dfs \(departmental/personal shares\)
-* \\files.brown.edu\research \(research shares\)
-* \\files.brown.edu{sharename} \(miscellaneous shares\)
+* \files.brown.edu\dfs \(departmental/personal shares\)
+* \files.brown.edu\research \(research shares\)
+* \files.brown.edu{sharename} \(miscellaneous shares\)
 
 You can transfer files between Department File Servers and Oscar using [smbclient](https://www.samba.org/samba/docs/man/manpages-3/smbclient.1.html).
 

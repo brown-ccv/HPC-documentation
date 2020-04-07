@@ -46,13 +46,9 @@ $ interact -n 20 -t 01:00:00 -m 10g
 
 requests an interactive session with 20 cores and 10 GB of memory \(per node\) for a period of 1 hour.
 
-
-
 {% hint style="info" %}
 **Keeping Interactive Jobs Alive:**
 
 If you loose connectivity to your login node, you loose access to your interactive job. To mitigate this issue you can use `screen` to keep your connection alive. For more information on using `screen` on the login nodes, see the [software section](../software/screen.md)
 {% endhint %}
-
-
 

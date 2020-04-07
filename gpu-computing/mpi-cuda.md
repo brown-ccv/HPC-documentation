@@ -23,11 +23,11 @@ nvcc -c multiply.cu -o multiply.o
 mpicc main.o multiply.o -lcudart
 ```
 
-The CUDA/C++ compiler `nvcc` is used only to compile the CUDA source file, and the MPI C compiler `mpicc` is used to compile the C code and to perform the linking.  / _multiply.cu_ /
+The CUDA/C++ compiler `nvcc` is used only to compile the CUDA source file, and the MPI C compiler `mpicc` is used to compile the C code and to perform the linking. / _multiply.cu_ /
 
-## include 
+## include
 
-**global** void **multiply** \(const float _a, float_ b\) { const int i = threadIdx.x + blockIdx.x  _blockDim.x; b\[i\]_ = a\[i\]; }
+**global** void **multiply** \(const float _a, float_ b\) { const int i = threadIdx.x + blockIdx.x _blockDim.x; b\[i\]_ = a\[i\]; }
 
 extern "C" void launch\_multiply\(const float _a, const_ b\) { / _... load CPU data into GPU buffers a\_gpu and b\_gpu_ /
 
@@ -40,11 +40,11 @@ extern "C" void launch\_multiply\(const float _a, const_ b\) { / _... load CPU d
  /* ... transfer data from GPU to CPU */
 ```
 
-Note the use of `extern "C"` around the function `launch_multiply`, which instructs the C++ compiler \(`nvcc` in this case\) to make that function callable from the C runtime. The following C code shows how the function could be called from an MPI task. 
+Note the use of `extern "C"` around the function `launch_multiply`, which instructs the C++ compiler \(`nvcc` in this case\) to make that function callable from the C runtime. The following C code shows how the function could be called from an MPI task.
 
 / _main.c_ /
 
-## include 
+## include
 
 void launch\_multiply\(const float _a, float_ b\);
 
@@ -94,11 +94,9 @@ extern "C" void launch_multiply(const float *a, const *b)
 
     safecall(cudaThreadSynchronize());
     safecall(cudaGetLastError());
-    
+
     /* ... transfer data from GPU to CPU */
 ```
-
-
 
 Note the use of `extern "C"` around the function `launch_multiply`, which instructs the C++ compiler \(`nvcc` in this case\) to make that function callable from the C runtime. The following C code shows how the function could be called from an MPI task.
 

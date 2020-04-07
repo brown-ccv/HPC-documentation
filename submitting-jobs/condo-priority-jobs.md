@@ -26,9 +26,9 @@ Condo account names are typically `<groupname>-condo`, and you can view a full l
 
 To see the running and pending jobs in a condo:
 
- `condo <condo-name>`
+`condo <condo-name>`
 
-### Premium Account \(priority\) jobs
+## Premium Account \(priority\) jobs
 
 If you have a premium account, that should be your default QOS for submitting jobs. You can check if you have a premium account with the command `groups`. If you have a priority account you will see `priority` in your the output form `groups`.
 

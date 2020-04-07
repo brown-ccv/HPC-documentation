@@ -1,6 +1,6 @@
 # Configuring Remote Launch
 
-#### Configuring Remote Launch from the client
+## Configuring Remote Launch from the client
 
 You will need to configure remote launch for Oscar
 
@@ -13,16 +13,14 @@ You will need to configure remote launch for Oscar
 ![Remote launch settings for Ocsar](../../.gitbook/assets/screen-shot-2019-08-05-at-2.41.01-pm.png)
 
 {% hint style="info" %}
-If you have a mismatch between your client version on the version of Forge on Oscar you will see an error message.   To fix this make sure you are using compatible client and remote versions
+If you have a mismatch between your client version on the version of Forge on Oscar you will see an error message. To fix this make sure you are using compatible client and remote versions
 {% endhint %}
 
 ![](../../.gitbook/assets/screen-shot-2019-08-05-at-2.45.28-pm.png)
 
 {% hint style="info" %}
-Once you are connected you will see a Licence checked out and  "Connected to username@ssh.ccv.brown.edu' on the client. 
+Once you are connected you will see a Licence checked out and "Connected to username@ssh.ccv.brown.edu' on the client.
 {% endhint %}
 
 ![](../../.gitbook/assets/screen-shot-2019-08-05-at-2.48.46-pm.png)
-
-
 

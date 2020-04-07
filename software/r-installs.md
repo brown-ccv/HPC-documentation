@@ -31,7 +31,7 @@ You will see a warning:
 ```r
 Warning in install.packages("wordcloud", repos = "http://cran.r-project.org") :
   'lib = "/gpfs/runtime/opt/R/3.4.2/lib64/R/library"' is not writable
-Would you like to use a personal library instead?  (y/n) 
+Would you like to use a personal library instead?  (y/n)
 ```
 
 Answer `y` . If you have not installed any R packages before you will see the following message:
@@ -39,7 +39,7 @@ Answer `y` . If you have not installed any R packages before you will see the fo
 ```r
 Would you like to create a personal library
 ~/R/x86_64-pc-linux-gnu-library/3.4
-to install packages into?  (y/n) 
+to install packages into?  (y/n)
 ```
 
 Answer `y` . The package will then be installed. If the install is successful you will see a message like:
@@ -61,7 +61,6 @@ If the installation was not successful you will see a message like:
 Warning message:
 In install.packages("wordcloud", repos = "http://cran.r-project.org") :
   installation of package ‘wordcloud’ had non-zero exit status
-
 ```
 
 There is normally information in the message that gives the reason why the install failed. Look for the word `ERROR` in the message.

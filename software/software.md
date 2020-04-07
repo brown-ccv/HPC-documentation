@@ -6,5 +6,3 @@ CCV cannot, however, supply funding for the purchase of commercial software. Thi
 
 For software that requires a Graphical User Interface \(GUI\) we recommend using CCV's [VNC Client](../connecting-to-oscar/vnc.md) rather than X-Forwarding.
 
-
-

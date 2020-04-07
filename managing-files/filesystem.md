@@ -12,7 +12,7 @@ icon: check
 
 CCV uses IBM's General Parallel File System \(GPFS\). Users have a home, data, and scratch space.
 
-  **home** `~`
+**home** `~`
 
 * 20GB of space
 * Optimized for many small files

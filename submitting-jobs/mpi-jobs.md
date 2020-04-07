@@ -26,7 +26,6 @@ mpi/mvapich2-2.3a_gcc         mpi/openmpi_2.0.3_gcc
 mpi/mvapich2-2.3a_intel       mpi/openmpi_2.0.3_intel
 mpi/mvapich2-2.3a_pgi         mpi/openmpi_2.0.3_pgi
 mpi/mvapich2-2.3b_gcc
-
 ```
 
 You can just use "`module load mpi`" to load the default version which is `mpi/mvapich2-2.3a_gcc`. This is the recommended version.
@@ -54,7 +53,7 @@ $ salloc -N <# nodes> -n <# MPI tasks> -p <partition> -t <minutes>
 For example, to request 4 cores to run 4 tasks \(MPI processes\):
 
 ```text
-$ salloc -n 4 
+$ salloc -n 4
 ```
 
 Once the allocation is fulfilled, you can run MPI programs with the `srun` command:

@@ -10,7 +10,7 @@ icon: check
 
 # Batch Jobs
 
-### Submitting jobs using batch scripts
+## Submitting jobs using batch scripts
 
 To run a batch job on Oscar, you first have to write a script that describes what resources you need and how your program will run. Some example batch scripts are available in your home directory on Oscar, in the directory:
 
@@ -44,7 +44,7 @@ Once you have your batch script, you can submit a batch job to the queue using t
 sbatch <jobscript>
 ```
 
-### Submitting jobs from the command line
+## Submitting jobs from the command line
 
 As an alternative to requesting resources within your batch script, it is possible to define the resources requested as command-line options to `sbatch`. For example, the command below requests 4 cores \(`-n`\), 16GB of memory **per node** \(`--mem`\), and one hour of runtime \(`-t`\) to run the job defined in the batch script.
 
@@ -54,7 +54,7 @@ sbatch -n 4 -t 1:00:00 --mem=16G <jobscript>
 
 Note that command-line options passed to `sbatch` will override the resources specified in the script, so this is a handy way to reuse an existing batch script when you just want to change a few of the resource values.
 
-### Output from batch jobs
+## Output from batch jobs
 
 The `sbatch` command will return a number, which is your **Job ID**. You can view the output of your job in the file `slurm-<jobid>.out` in the directory where you invoked the `sbatch` command. For instance, you can view the last 10 lines of output with:
 
@@ -64,7 +64,7 @@ tail -10 slurm-<jobid>.out
 
 Alternatively, you can mention the file names where you want to dump the standard output and errors using the `-o` and `-e` flags.
 
-### sbatch command options
+## sbatch command options
 
 A full description of all of the options for`sbatch` can be found [online ](https://slurm.schedmd.com/sbatch.html)or by using the following command on Oscar:
 
@@ -89,7 +89,7 @@ The table below summarizes some of the more useful options for`sbatch` .
 | `--mail-type=` | Specify the events that you should be notified of by email: BEGIN, END, FAIL, REQUEUE, and ALL |
 | `--mail-user=` | Email ID where you should be notified |
 
-### Passing environment variables to a batch job
+## Passing environment variables to a batch job
 
 When a user log in to Oscar, there are pre-set environment variables such as HOME, which are the user's login environment variables. A user may modify an existing enviornmet variable, or add a new environment variable. So when a user submit a slurm batch job, the user's current environment variables may differ from the user's login environment. By default, a user's current environment variables, instead of the user's login environment variables, are accessible to the user's batch jobs on Oscar.
 

@@ -1,11 +1,11 @@
 # Arm Forge
 
-[Arm Forge](https://www.arm.com/products/development-tools/server-and-hpc/forge) is available on Oscar.  There are two products, DDT \(debugger\) and MAP \(performance reports\).
+[Arm Forge](https://www.arm.com/products/development-tools/server-and-hpc/forge) is available on Oscar. There are two products, DDT \(debugger\) and MAP \(performance reports\).
 
-We recommend you use the Arm Forge remote client to launch your debugging jobs on Oscar.  The first time you set up Arm Forge you will need to configure the client with the following steps:
+We recommend you use the Arm Forge remote client to launch your debugging jobs on Oscar. The first time you set up Arm Forge you will need to configure the client with the following steps:
 
 1. Download the [arm forge remote client](https://developer.arm.com/tools-and-software/server-and-hpc/arm-architecture-tools/downloads/download-arm-forge) on your machine.
-2.  [Configuring Remote Launch from the client](configuring-remote-launch.md)
+2. [Configuring Remote Launch from the client](configuring-remote-launch.md)
 3. [Set up Job Submission Settings](setting-job-submission-settings.md)
 
 {% hint style="info" %}
@@ -20,7 +20,7 @@ Arm DDT is a powerful graphical debugger suitable for many different development
 * OpenMP.
 * Parallel \(MPI\) software.
 
-#### Arm MAP
+## Arm MAP
 
 Arm MAP is a parallel profiler that shows you which lines of code took the most time to run, and why. Arm MAP does not require any complicated configuration, and you do not need to have experience with profiling tools to use it.
 

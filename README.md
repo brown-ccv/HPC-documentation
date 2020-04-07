@@ -25,11 +25,11 @@ Individuals external to Brown can get access to Oscar by having a sponsored Brow
 {% endhint %}
 
 {% hint style="warning" %}
-**Large numbers of jobs submitted to Slurm on Oscar can cause problems.**    If you are going to submit tens of thousands of jobs please bundle your work into fewer jobs.   CCV staff can help you with this.  Please email support@ccv.brown.edu with any questions
+**Large numbers of jobs submitted to Slurm on Oscar can cause problems.** If you are going to submit tens of thousands of jobs please bundle your work into fewer jobs. CCV staff can help you with this. Please email support@ccv.brown.edu with any questions
 {% endhint %}
 
 {% hint style="info" %}
-**Oscar is a multi-node system**.  If your code is serial or threaded then using multiple nodes will not make your code go faster.   Restrict your job to running on one node with`#SBATCH -N 1`. Efficient use of resources helps everyone on Oscar.  CCV staff can help you determine the best way to run your job.  support@ccv.brown.edu
+**Oscar is a multi-node system**. If your code is serial or threaded then using multiple nodes will not make your code go faster. Restrict your job to running on one node with`#SBATCH -N 1`. Efficient use of resources helps everyone on Oscar. CCV staff can help you determine the best way to run your job. support@ccv.brown.edu
 {% endhint %}
 
 {% hint style="warning" %}

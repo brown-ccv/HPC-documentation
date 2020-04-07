@@ -10,7 +10,7 @@ icon: check
 
 # Installing Python Packages
 
-For Python 2, we recommend using the **python/2.7.16** module.   For Python 3, we recommend using the **python/3.7.4** module. 
+For Python 2, we recommend using the **python/2.7.16** module. For Python 3, we recommend using the **python/3.7.4** module.
 
 {% hint style="info" %}
 Both these modules include the `pip`and `virtualenv`commands, but do not include other common Python packages \(e.g., SciPy, NumPy\). This affords individual users complete control over the packages they are using.
@@ -25,7 +25,7 @@ There are several ways for users to install python packages on Oscar
 * from source into a custom location
 
 {% hint style="warning" %}
-We recommend using a virtual environment for your workflow if you prefer`pip.` If you are a conda user we recommend managing your workflow with [conda environments  ](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
+We recommend using a virtual environment for your workflow if you prefer`pip.` If you are a conda user we recommend managing your workflow with [conda environments ](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
 {% endhint %}
 
 {% hint style="info" %}
@@ -33,16 +33,16 @@ In this document, we use angular brackets `<>` to denote command line options th
 {% endhint %}
 
 {% hint style="info" %}
-Note for python3 packages replace `python` with  `python3` ****and `pip` with `pip3`
+Note for python3 packages replace `python` with `python3` _\*\*_and `pip` with `pip3`
 {% endhint %}
 
 {% hint style="info" %}
-Intel provides optimized packages for numerical and scientific work that you can install through[ pip](https://software.intel.com/en-us/articles/installing-the-intel-distribution-for-python-and-intel-performance-libraries-with-pip-and) or [anaconda](https://software.intel.com/en-us/articles/using-intel-distribution-for-python-with-anaconda). 
+Intel provides optimized packages for numerical and scientific work that you can install through[ pip](https://software.intel.com/en-us/articles/installing-the-intel-distribution-for-python-and-intel-performance-libraries-with-pip-and) or [anaconda](https://software.intel.com/en-us/articles/using-intel-distribution-for-python-with-anaconda).
 {% endhint %}
 
 ## Using virtualenv
 
-Virtual environments are a cleaner way to install python packages for a specific workflow. [This webpage](https://virtualenv.pypa.io/en/stable/) gives a good explanation of the use cases.    In the example below, a virtual environment called 'my\_cool\_science' is set up in your home directory:
+Virtual environments are a cleaner way to install python packages for a specific workflow. [This webpage](https://virtualenv.pypa.io/en/stable/) gives a good explanation of the use cases. In the example below, a virtual environment called 'my\_cool\_science' is set up in your home directory:
 
 ```text
 module load python/2.7.16
@@ -65,11 +65,11 @@ line 5: install any packages you need for the virtual environment
 
 line 6: deactivate the environment
 
-When you want to use the environment,  e.g. in a batch script or an interactive session 
+When you want to use the environment, e.g. in a batch script or an interactive session
 
- `source ~/my_cool_science/bin/activate`
+`source ~/my_cool_science/bin/activate`
 
-When your work is finished, deactivate the environment with 
+When your work is finished, deactivate the environment with
 
 `deactivate`
 
@@ -97,7 +97,7 @@ If you omit the `--user` flag you will see
 This is because users do not have access to the default locations where software is installed.
 {% endhint %}
 
-Python packages can often have conflicting dependencies.  For workflows that require a lot of python packages, we recommend using virtual environments. 
+Python packages can often have conflicting dependencies. For workflows that require a lot of python packages, we recommend using virtual environments.
 
 ## Install at custom location
 

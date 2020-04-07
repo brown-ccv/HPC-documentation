@@ -1,6 +1,6 @@
 # Passwords
 
-### What username and password should I be using?
+## What username and password should I be using?
 
 * If you are at Brown and have requested a regular CCV account, your Oscar login can be authenticated using your Brown credentials itself, i.e. the same username and password that you use to login to any Brown service such as "canvas". 
 * If it is a temporary guest account \(e.g. as part of a class\), you should have been provided with a username of the format "guestxxx" along with a password.
@@ -10,7 +10,7 @@
 We have seen login problems with the Brown credentials for some users so accounts moved to the Red Hat 7 system after September 1st 2018 can also log in to Red Hat 7 with their CCV password.
 {% endhint %}
 
-### Changing Passwords
+## Changing Passwords
 
 To change your Oscar login password, use the command:
 

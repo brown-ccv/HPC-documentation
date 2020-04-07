@@ -66,5 +66,3 @@ brownccv#Brown-CCV-oscar-2
 You can use either endpoint to move data to/from Oscar to another Globus endpoint.  
 If you want to use Globus Online to move data to/from you own machine, you can install Globus Connect Personal. For more instructions on how to use Globus, see the [Using Globus](using-globus.md) section.
 
-
-

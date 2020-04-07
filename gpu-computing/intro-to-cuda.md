@@ -18,7 +18,7 @@ There are also many CUDA tutorials available online:
 * [CUDA, Supercomputing for the Masses](http://www.drdobbs.com/parallel/cuda-supercomputing-for-the-masses-part/207200659)
 * [CUDA Tutorial](http://supercomputingblog.com/cuda/cuda-tutorial-1-getting-started/) from The Supercomputing Blog
 
-#### Threads in CUDA
+### Threads in CUDA
 
 CUDA uses a data-parallel programming model, which allows you to program at the level of what operations an individual thread performs on the data that it owns. This model works best for problems that can be expressed as a few operations that all threads apply in parallel to an array of data. CUDA allows you to define a thread-level function, then execute this function by mapping threads to the elements of your data array.
 
@@ -28,7 +28,7 @@ Conceptually, it can be useful to map the grid onto the data you are processing 
 
 The CUDA runtime dynamically schedules the thread blocks to run on the **multiprocessors** of the GPU. The M2050 GPUs available on Oscar each have 14 multiprocessors. By adjusting the size of the thread block, you can control how much work is done concurrently on each multiprocessor.
 
-#### Memory on the GPU
+### Memory on the GPU
 
 The GPU has a separate memory subsystem from the CPU. The M2050 GPUs have GDDR5 memory, which is a higher bandwidth memory than the DDR2 or DDR3 memory used by the CPU. The M2050 can deliver a peak memory bandwidth of almost 150 GB/sec, while a multi-core Nehalem CPU is limited to more like 25 GB/sec.
 
@@ -37,6 +37,4 @@ The trade-off is that there is usually less memory available on a GPU. For insta
 Another bottleneck is transferring data between the GPU and CPU, which happens over the PCI Express bus. For a CUDA program that must process a large dataset residing in CPU memory, it may take longer to transfer that data to the GPU than to perform the actual computation. The GPU offers the largest benefit over the CPU for programs where the input data is small, or there is a large amount of computation relative to the size of the input data.
 
 CUDA kernels can access memory from three different locations with very different latencies: global GDDR5 memory \(100s of cycles\), shared memory \(1-2 cycles\), and constant memory \(1 cycle\). Global memory is available to all threads across all thread blocks, and can be transferred to and from CPU memory. Shared memory can only be shared by threads within a thread block and is only accessible on the GPU. Constant memory is accessible to all threads and the CPU, but is limited in size \(64KB\).
-
-## 
 

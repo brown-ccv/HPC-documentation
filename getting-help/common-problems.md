@@ -8,7 +8,7 @@
 
    use for SSH'ing to Oscar.
 
-2. Make sure you are using the latest version from the [VNC page](vnc)
+2. Make sure you are using the latest version from the [VNC page](https://github.com/brown-ccv/HPC-documentation/tree/274acf2ee119a42697ed887d0deb64f3f06d57c1/getting-help/vnc/README.md)
 3. Check the Java version on your computer. We recommend at least java
 
    version 8.
@@ -44,7 +44,7 @@ FILESET data+apollo        11.05T      20T      24T        - |   459764  4194304
 
 There are limits on the amount of data as well as number of files. "Grace" is the grace period you have left after you exceed the quota. After the grace period expires, you will not be allowed to write to files and a "disk quota exceeded" error will be shown. "HLIMIT" is the highest limit which can't be breached even in the grace period.
 
-If you find you are above quota limits, you can delete or compress files to bring down your usage. If your home directory is over limits, you can move files to your data directory. You can also simply ask your PI to get additional storage allocation. Here are the [rates](doc/rates).
+If you find you are above quota limits, you can delete or compress files to bring down your usage. If your home directory is over limits, you can move files to your data directory. You can also simply ask your PI to get additional storage allocation. Here are the [rates](https://github.com/brown-ccv/HPC-documentation/tree/274acf2ee119a42697ed887d0deb64f3f06d57c1/getting-help/doc/rates/README.md).
 
 ## Your account has expired
 
@@ -58,7 +58,7 @@ In case you want to continue using CCV resources and face this error while loggi
 
 **Solution 1**
 
-```
+```text
 $ vi ~/.ssh/known_hosts
 remove line no: 4.
 Save and Exit, and Retry.

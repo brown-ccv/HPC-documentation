@@ -11,13 +11,13 @@ description: >-
 
 First, I go to the official dockerHub Tensorflow page, and decide on which release I am interested in. For this example, I will use the latest python3 deployment. Following the instructions provided in the [Building Images](building-images.md) section:
 
-```
+```text
 singularity build <finalImageName>.simg docker://<dockerHubURL>
 ```
 
 becomes
 
-```
+```text
 singularity build tf-py3.simg docker://tensorflow/tensorflow:1.14.0
 ```
 
@@ -47,7 +47,7 @@ Singularity container built: tf-py3.simg
 Cleaning up...
 ```
 
-Once built, you will have a new file in your current directory named tf-py3.simg. 
+Once built, you will have a new file in your current directory named tf-py3.simg.
 
 ## Running Our Tensorflow Container
 
@@ -81,6 +81,4 @@ See below attached the sample batch script, and tf\_NN.py tensorflow python code
 {% file src="../.gitbook/assets/tf\_nn.py" caption="Tensorflow Sample Python Code" %}
 
 {% file src="../.gitbook/assets/singularity\_sbatch\_tf3.sh" caption="Sample Batch Script" %}
-
-
 

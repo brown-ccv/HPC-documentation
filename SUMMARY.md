@@ -70,9 +70,6 @@
 
 ## Jupyter Notebooks/Labs <a id="jupyter-notebooks"></a>
 
-* [Jupyter Notebooks on Oscar](jupyter-notebooks/jupyter-notebooks-on-oscar-1.md)
-* [Jupyter Labs on Oscar](jupyter-notebooks/jupyter-notebooks-on-oscar.md)
-
 ## Singularity Containers
 
 * [Singularity](singularity-containers/singularity/README.md)
@@ -88,12 +85,12 @@
 * [Arm Forge](common-soft/arm-forge/README.md)
   * [Configuring Remote Launch](common-soft/arm-forge/configuring-remote-launch.md)
   * [Setting Job Submission Settings](common-soft/arm-forge/setting-job-submission-settings.md)
+* [Jupyter](common-soft/jupyter.md)
 * [Matlab](common-soft/matlab/README.md)
   * [Matlab GUI](common-soft/matlab/matlab-gui.md)
   * [Matlab Batch Jobs](common-soft/matlab/matlab-batch.md)
   * [Parallel Matlab](common-soft/matlab/parallel-matlab.md)
   * [Improving Performance and Memory Managament](common-soft/matlab/performance.md)
-* [Jupyter](common-soft/jupyter.md)
 * [CESM](common-soft/cesm-1/README.md)
   * [Using a CESM module](common-soft/cesm-1/cesm.md)
   * [Installing your own version of CESM](common-soft/cesm-1/installing-your-own-version-of-cesm.md)

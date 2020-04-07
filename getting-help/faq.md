@@ -8,7 +8,7 @@ Most inquiries can be directed to CCV’s support address, `support@ccv.brown.ed
 
 ### What are the fees for CCV services?
 
-All CCV services are billed quarterly, and rates can be found [here](../connecting-to-oscar/account-types.md) \(requires a Brown authentication to view\). Questions about rates should be directed to `support@ccv.brown.edu`.
+All CCV services are billed quarterly, and rates can be found [here](../connecting-to-oscar/oscar/account-types/) \(requires a Brown authentication to view\). Questions about rates should be directed to `support@ccv.brown.edu`.
 
 ### How do I acknowledge CCV in a research publication?
 
@@ -26,7 +26,7 @@ To request an account, please fill out a [New User Account Form](http://pccvwebc
 
 ### How do I run a job on Oscar?
 
-Sample batch scripts are available in your home directory at `~/batch_scripts` and can be run with the `sbatch <jobscript>` command. For more information, visit our manual page on [Batch Jobs](../connecting-to-oscar/slurm/shared-machine/batch.md).
+Sample batch scripts are available in your home directory at `~/batch_scripts` and can be run with the `sbatch <jobscript>` command. For more information, visit our manual page on [Batch Jobs](../connecting-to-oscar/oscar/slurm/shared-machine/batch.md).
 
 ### Can I use Oscar for teaching?
 
@@ -38,11 +38,11 @@ We post updates to our user mailing list, `ccv@listserv.brown.edu` which you are
 
 ### How do I run a job array on Oscar?
 
-A job array is a special type of job submission that allows you to submit many related batch jobs with a single command. This makes it easy to do parameter sweeps or other schemes where the submitted jobs are all the same except for a single parameter such as a filename or input variable. Job arrays require special syntax in your job script. Sample batch scripts for job arrays are available in your home directory at `~/batch_scripts` and can be run with the `sbatch <jobscript>` command. For more information, visit our manual page on [Running Jobs](../connecting-to-oscar/slurm/shared-machine/array.md).
+A job array is a special type of job submission that allows you to submit many related batch jobs with a single command. This makes it easy to do parameter sweeps or other schemes where the submitted jobs are all the same except for a single parameter such as a filename or input variable. Job arrays require special syntax in your job script. Sample batch scripts for job arrays are available in your home directory at `~/batch_scripts` and can be run with the `sbatch <jobscript>` command. For more information, visit our manual page on [Running Jobs](../connecting-to-oscar/oscar/slurm/shared-machine/array.md).
 
 ### How do I run a MPI job on Oscar?
 
-MPI is a type of programming interface. Programs written with MPI can run on and communicate across multiple nodes. You can run MPI-capable programs by calling `srun --mpi=pmi2 <program>` in your batch script. For more detailed info, visit our manual page on [MPI programs](../connecting-to-oscar/slurm/shared-machine/mpi-jobs.md).
+MPI is a type of programming interface. Programs written with MPI can run on and communicate across multiple nodes. You can run MPI-capable programs by calling `srun --mpi=pmi2 <program>` in your batch script. For more detailed info, visit our manual page on [MPI programs](../connecting-to-oscar/oscar/slurm/shared-machine/mpi-jobs.md).
 
 ### I have some MPI-enabled source code. How can I compile it on Oscar?
 
@@ -50,11 +50,11 @@ Load an mpi module `module load mpi`. For a list of mpi modules available, `modu
 
 ### What applications are available on Oscar?
 
-Many scientific and HPC software packages are already installed on Oscar, including python, perl, R, Matlab, Mathematica, and Maple. Use the `module avail` command on Oscar to view the whole list or search for packages. See our manual page on [Software](../connecting-to-oscar/software/) to understand how software modules work. Additional packages can be requested by submitting a support ticket to `support@ccv.brown.edu`.
+Many scientific and HPC software packages are already installed on Oscar, including python, perl, R, Matlab, Mathematica, and Maple. Use the `module avail` command on Oscar to view the whole list or search for packages. See our manual page on [Software](../connecting-to-oscar/oscar/slurm/software/) to understand how software modules work. Additional packages can be requested by submitting a support ticket to `support@ccv.brown.edu`.
 
 ### What compilers are available on Oscar?
 
-By default, the `gcc` compiler is available when you login to Oscar, providing the GNU compiler suite of `gcc` \(C\), `g++` \(C++\), and `gfortran`. We also provide compilers from Intel \(`intel` module\) and the Portland Group \(`pgi` module\). For more information, visit our manual page on [Software](../connecting-to-oscar/software/).
+By default, the `gcc` compiler is available when you login to Oscar, providing the GNU compiler suite of `gcc` \(C\), `g++` \(C++\), and `gfortran`. We also provide compilers from Intel \(`intel` module\) and the Portland Group \(`pgi` module\). For more information, visit our manual page on [Software](../connecting-to-oscar/oscar/slurm/software/).
 
 ### How do I get information about finished jobs?
 
@@ -62,11 +62,11 @@ The `sacct` command will list all of your completed jobs since midnight of the p
 
 ### How much storage am I using?
 
-The `myquota` command on Oscar will print a summary of your usage on the home, data, and scratch file systems. For more information, see our manual page on [File Systems](../connecting-to-oscar/filesystem/).
+The `myquota` command on Oscar will print a summary of your usage on the home, data, and scratch file systems. For more information, see our manual page on [File Systems](../connecting-to-oscar/oscar/filesystem/).
 
 ### My job keeps terminating unexpectedly with a "Killed" message, or without any errors. What happened?
 
-These are symptoms of not requesting enough memory for your job. The default memory allocation is about 3 GB. If your job is resource-intensive, you may need to specifically allocate more. See the [user manual](../connecting-to-oscar/slurm/shared-machine/batch.md#sbatch-command-options) for instructions on requesting memory and other resources.
+These are symptoms of not requesting enough memory for your job. The default memory allocation is about 3 GB. If your job is resource-intensive, you may need to specifically allocate more. See the [user manual](../connecting-to-oscar/oscar/slurm/shared-machine/batch.md#sbatch-command-options) for instructions on requesting memory and other resources.
 
 ### How do I request a certain amount of memory per CPU?
 
@@ -147,7 +147,7 @@ When your job is pending \(PD\) in the queue, SLURM will display a reason why yo
 Please use the server **transfer.ccv.brown.edu**
 
 1. From your machine to Oscar:  scp file1.txt userid@transfer.ccv.brown.edu From Oscar to another machine: ssh transfer transfer&gt; scp file1.txt userid@your-machine-name 
-2. Alternatively, Oscar has an endpoint for "Globusonline" \([https://www.globus.org](https://www.globus.org)\) that you can use to more effectively transfer files. See our manual page on how to use [Globus Online](../connecting-to-oscar/filesystem/filetransfer/using-globus.md) to transfer files.
+2. Alternatively, Oscar has an endpoint for "Globusonline" \([https://www.globus.org](https://www.globus.org)\) that you can use to more effectively transfer files. See our manual page on how to use [Globus Online](../connecting-to-oscar/oscar/filesystem/filetransfer/using-globus.md) to transfer files.
 
 ## XSEDE
 

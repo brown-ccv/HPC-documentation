@@ -4,5 +4,5 @@ Many scientific and HPC software packages are already installed on Oscar, and ad
 
 CCV cannot, however, supply funding for the purchase of commercial software. This is normally attributed as a direct cost of research, and should be purchased with research funding. CCV can help in identifying other potential users of the software to potentially share the cost of purchase and maintenance. Several commercial software products that are licensed campus-wide at Brown are available on Oscar.
 
-For software that requires a Graphical User Interface \(GUI\) we recommend using CCV's [VNC Client](../connecting/vnc.md) rather than X-Forwarding.
+For software that requires a Graphical User Interface \(GUI\) we recommend using CCV's [VNC Client](../../connecting/vnc.md) rather than X-Forwarding.
 

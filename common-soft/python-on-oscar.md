@@ -8,7 +8,7 @@ To use the recommend Python modules, use the following commands to load the rele
 
 `module load python/3.7.4`
 
-Users can install any Python package they require by following the instructions given on the [Installing Python Packages](../connecting-to-oscar/software/installing-software/python-installs.md) page.
+Users can install any Python package they require by following the instructions given on the [Installing Python Packages](../connecting-to-oscar/oscar/slurm/software/installing-software/python-installs.md) page.
 
 ## Python in batch jobs
 

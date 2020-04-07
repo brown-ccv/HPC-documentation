@@ -122,7 +122,7 @@ module: loading 'workshop/2.0'
 [mhamilton@login001 ~]$
 ```
 
-For a list of all PyModule commands see [Software Modules](software/). If you have a request for software to be installed on Oscar, email support@ccv.brown.edu.
+For a list of all PyModule commands see [Software Modules](slurm/software/). If you have a request for software to be installed on Oscar, email support@ccv.brown.edu.
 
 ## Using a Desktop on Oscar
 
@@ -147,6 +147,6 @@ There is also extensive documentation on the web on using SLURM \([quick start g
 ## Where to get help
 
 * Many online resources: [SLURM](https://slurm.schedmd.com/), [Linux](http://tldp.org/LDP/intro-linux/html/), [stackoverflow](http://stackoverflow.com/)
-* CCV's page detailing [common problems](../getting-help/faq.md) you might face on Oscar
+* CCV's page detailing [common problems](../../getting-help/faq.md) you might face on Oscar
 * Email [support@ccv.brown.edu](mailto:support@ccv.brown.edu)
 

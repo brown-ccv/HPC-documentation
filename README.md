@@ -12,9 +12,11 @@ Welcome to the CCV HPC documentation.  This documentation covers using Oscar, CC
 
 For the impatient, here is the Oscar quick start guide:
 
-{% page-ref page="connecting-to-oscar/getting-started.md" %}
+{% page-ref page="connecting-to-oscar/oscar/getting-started.md" %}
 
 For more detail, here is our guide to Oscar: 
+
+
 
 We also have documentation for using common software packages on Oscar
 

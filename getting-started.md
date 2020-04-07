@@ -24,7 +24,7 @@ To log in to Oscar you need Secure Shell \(SSH\) on your computer. Mac and Linux
 ssh <username>@ssh.ccv.brown.edu
 ```
 
-Windows users need to install an SSH client. We recommend [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html), a free SSH client for Windows. In PuTTY, use `<username>@ssh.ccv.brown.edu` or `<username>@ssh4.ccv.brown.edu` for the Host Name.
+Windows users need to install an SSH client. We recommend [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html), a free SSH client for Windows. In PuTTY, use `<username>@ssh.ccv.brown.edu` for the Host Name.
 
 The first time you connect to Oscar you will see a message like:
 

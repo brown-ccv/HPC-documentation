@@ -135,7 +135,7 @@ Remember to `scancel {jobid}` when you are done with your notebook session.
 
 ### 1.Start jupter lab in in interactive job
 
-Start a [Interactive job](../submitting-jobs/interact.md) and then in your interactive seesion enter
+Start a [Interactive job](../submitting-jobs/slurm/shared-machine/interact.md) and then in your interactive seesion enter
 
 ```text
 unset XDG_RUNTIME_DIR

@@ -107,7 +107,7 @@ FILESET data+apollo        11.05T      20T      24T        - |   459764  4194304
 Files not accessed for 30 days may be deleted from your scratch directory. This is because scratch is high performance space. The fuller scratch is the worse the read/write performance. Use ~/data for files you need to keep long term.
 {% endhint %}
 
-A good practice is to configure your application to read any initial input data from `~/data` and write all output into `~/scratch`. Then, when the application has finished, move or copy data you would like to save from `~/scratch` to `~/data`. For more information on which directories are backed up and best practices for reading/writing files, see [Oscar's filesystem](managing-files/filesystem.md) and [Best Practices](managing-files/io-best-practices.md). You can go over your quota up to the hard limit for a grace period \(14days\). This grace period is to give you time to manage your files. When the grace period expires you will be unable to write any files until you are back under quota.
+A good practice is to configure your application to read any initial input data from `~/data` and write all output into `~/scratch`. Then, when the application has finished, move or copy data you would like to save from `~/scratch` to `~/data`. For more information on which directories are backed up and best practices for reading/writing files, see [Oscar's filesystem](managing-files/filesystem/) and [Best Practices](managing-files/io-best-practices.md). You can go over your quota up to the hard limit for a grace period \(14days\). This grace period is to give you time to manage your files. When the grace period expires you will be unable to write any files until you are back under quota.
 
 ## Software modules
 
@@ -140,7 +140,7 @@ With so many active users, a shared cluster has to use a "job scheduler" to assi
 
 Oscar uses the **SLURM** job scheduler. Batch jobs is the preferred mode of running programs, where all commands are mentioned in a "batch script" along with the required resources \(number of cores, wall-time, etc.\). However, there is also a way to run programs interactively.
 
-For information on how to submit jobs on Oscar, see [Running Jobs](submitting-jobs/shared-machine.md).
+For information on how to submit jobs on Oscar, see [Running Jobs](submitting-jobs/slurm/shared-machine/).
 
 There is also extensive documentation on the web on using SLURM \([quick start guide](https://slurm.schedmd.com/quickstart.html)\).
 

@@ -86,7 +86,7 @@ The default version of `gcc` on Oscar is 4.8.5 which comes installed as part of 
 
 ## How to restore files deleted by mistake?
 
-**Solution:** See the "Restoring Files" section on the [file systems](../managing-files/restore.md) page.
+**Solution:** See the "Restoring Files" section on the [file systems](../managing-files/filesystem/restore.md) page.
 
 ## Error while loading shared libraries - Cannot open shared object file - Library not found
 

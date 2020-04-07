@@ -34,5 +34,5 @@ Use the command `groups` to see whether your account is a member of priority or 
 
 ## Class
 
-Class accounts are provided free of charge for faculty who are teaching using Oscar. To set up accounts for your class, email 'support@ccv.brown.edu\`.
+Class accounts are provided free of charge for faculty who are teaching using Oscar. To set up accounts for your class, email support@ccv.brown.edu.
 

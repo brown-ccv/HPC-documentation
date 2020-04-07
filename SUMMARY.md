@@ -15,42 +15,46 @@
 ## Accounts on Oscar
 
 * [Account Types](accounts-on-oscar/account-types.md)
-* [Account Limits](accounts-on-oscar/limits.md)
 * [Passwords](accounts-on-oscar/passwords.md)
-
-## Managing files
-
-* [Oscar's Filesystem](managing-files/filesystem.md)
-* [Transferring Files to and from Oscar](managing-files/filetransfer/README.md)
-  * [Using Globus](managing-files/filetransfer/using-globus.md)
-* [Transferring Files between Oscar and files.brown.edu](managing-files/filetransfer-isilon.md)
-* [Restoring Deleted Files](managing-files/restore.md)
-* [Best Practices for I/O](managing-files/io-best-practices.md)
-* [Version Control](managing-files/version-control.md)
 
 ## Submitting jobs
 
-* [Running Jobs](submitting-jobs/shared-machine.md)
-* [Slurm](submitting-jobs/slurm.md)
-* [Interactive Jobs](submitting-jobs/interact.md)
-* [Batch Jobs](submitting-jobs/batch.md)
-* [Managing Jobs](submitting-jobs/managing-jobs.md)
-* [Job Arrays](submitting-jobs/array.md)
-* [MPI Jobs](submitting-jobs/mpi-jobs.md)
-* [Condo/Priority Jobs](submitting-jobs/condo-priority-jobs.md)
-* [Dependent Jobs](submitting-jobs/dependent-jobs.md)
+* [Slurm](submitting-jobs/slurm/README.md)
+  * [Partitions](submitting-jobs/slurm/partitions/README.md)
+    * [Large Memory Nodes on Oscar](submitting-jobs/slurm/partitions/large-mem.md)
+  * [Priority](submitting-jobs/slurm/condo-priority-jobs.md)
+  * [Running Jobs](submitting-jobs/slurm/shared-machine/README.md)
+    * [Interactive Jobs](submitting-jobs/slurm/shared-machine/interact.md)
+    * [Batch Jobs](submitting-jobs/slurm/shared-machine/batch.md)
+    * [Job Arrays](submitting-jobs/slurm/shared-machine/array.md)
+    * [Dependent Jobs](submitting-jobs/slurm/shared-machine/dependent-jobs.md)
+    * [Managing Jobs](submitting-jobs/slurm/shared-machine/managing-jobs.md)
+    * [MPI Jobs](submitting-jobs/slurm/shared-machine/mpi-jobs.md)
+
+## Managing files
+
+* [Oscar's Filesystem](managing-files/filesystem/README.md)
+  * [Transferring Files to and from Oscar](managing-files/filesystem/filetransfer/README.md)
+    * [Using Globus](managing-files/filesystem/filetransfer/using-globus.md)
+  * [Transferring Files between Oscar and files.brown.edu](managing-files/filesystem/filetransfer-isilon.md)
+  * [Restoring Deleted Files](managing-files/filesystem/restore.md)
+* [Best Practices for I/O](managing-files/io-best-practices.md)
+* [Version Control](managing-files/version-control.md)
+
+## Getting Help
+
+* [Getting Help](getting-help/getting-help/README.md)
+  * [File a Support Ticket](getting-help/getting-help/ticket.md)
+  * [Visit Office Hours](getting-help/getting-help/office-hours.md)
+  * [Meet with CCV Staff](getting-help/getting-help/meet-ccv.md)
+* [Common Problems](getting-help/common-problems.md)
+* [FAQ](getting-help/faq.md)
 
 ## GPU Computing
 
 * [GPUs on Oscar](gpu-computing/gpus.md)
 * [Submitting GPU Jobs](gpu-computing/submit-gpu.md)
-* [Intro to CUDA](gpu-computing/intro-to-cuda.md)
 * [Compiling CUDA](gpu-computing/cuda-compiling.md)
-* [Mixing MPI and CUDA](gpu-computing/mpi-cuda.md)
-
-## Large Memory Computing
-
-* [Large Memory Nodes on Oscar](large-memory-computing/large-mem.md)
 
 ## Software
 
@@ -69,38 +73,28 @@
 * [Jupyter Notebooks on Oscar](jupyter-notebooks/jupyter-notebooks-on-oscar-1.md)
 * [Jupyter Labs on Oscar](jupyter-notebooks/jupyter-notebooks-on-oscar.md)
 
-## Debugging
-
-* [Arm Forge](debugging/arm-forge/README.md)
-  * [Configuring Remote Launch](debugging/arm-forge/configuring-remote-launch.md)
-  * [Setting Job Submission Settings](debugging/arm-forge/setting-job-submission-settings.md)
-
-## MATLAB
-
-* [Matlab GUI](matlab/matlab-gui.md)
-* [Matlab Batch Jobs](matlab/matlab-batch.md)
-* [Improving Performance and Memory Managament](matlab/performance.md)
-* [Parallel Matlab](matlab/parallel-matlab.md)
-
 ## Singularity Containers
 
-* [Intro to Singularity](singularity-containers/untitled.md)
-* [Building Images](singularity-containers/building-images.md)
-* [Running Images](singularity-containers/running-images.md)
-* [Accessing Oscar Filesystem](singularity-containers/accessing-oscar-filesystem.md)
-* [Example - Tensorflow](singularity-containers/example-tensorflow.md)
-* [Singularity Tips and Tricks](singularity-containers/singularity-tips-and-tricks.md)
+* [Singularity](singularity-containers/singularity/README.md)
+  * [Intro to Singularity](singularity-containers/singularity/untitled.md)
+  * [Building Images](singularity-containers/singularity/building-images.md)
+  * [Running Images](singularity-containers/singularity/running-images.md)
+  * [Accessing Oscar Filesystem](singularity-containers/singularity/accessing-oscar-filesystem.md)
+  * [Singularity Tips and Tricks](singularity-containers/singularity/singularity-tips-and-tricks.md)
+  * [Example - Tensorflow](singularity-containers/singularity/example-tensorflow.md)
 
-## Getting Help
+## Commonly Used Software <a id="common-soft"></a>
 
-* [Common Problems](getting-help/common-problems.md)
-* [FAQ](getting-help/faq.md)
-* [File a Support Ticket](getting-help/ticket.md)
-* [Visit Office Hours](getting-help/office-hours.md)
-* [Meet with CCV Staff](getting-help/meet-ccv.md)
-
-## CESM
-
-* [Using a CESM module](cesm/cesm.md)
-* [Installing your own version of CESM](cesm/installing-your-own-version-of-cesm.md)
+* [Arm Forge](common-soft/arm-forge/README.md)
+  * [Configuring Remote Launch](common-soft/arm-forge/configuring-remote-launch.md)
+  * [Setting Job Submission Settings](common-soft/arm-forge/setting-job-submission-settings.md)
+* [Matlab](common-soft/matlab/README.md)
+  * [Matlab GUI](common-soft/matlab/matlab-gui.md)
+  * [Matlab Batch Jobs](common-soft/matlab/matlab-batch.md)
+  * [Parallel Matlab](common-soft/matlab/parallel-matlab.md)
+  * [Improving Performance and Memory Managament](common-soft/matlab/performance.md)
+* [Jupyter](common-soft/jupyter.md)
+* [CESM](common-soft/cesm-1/README.md)
+  * [Using a CESM module](common-soft/cesm-1/cesm.md)
+  * [Installing your own version of CESM](common-soft/cesm-1/installing-your-own-version-of-cesm.md)
 

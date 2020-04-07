@@ -42,10 +42,6 @@
   * [Submitting GPU Jobs](connecting-to-oscar/gpus/submit-gpu.md)
   * [Compiling CUDA](connecting-to-oscar/gpus/cuda-compiling.md)
 
-## Managing files
-
-* [Version Control](managing-files/version-control.md)
-
 ## Getting Help
 
 * [Getting Help](getting-help/getting-help/README.md)
@@ -77,4 +73,8 @@
   * [Accessing Oscar Filesystem](common-soft/singularity/accessing-oscar-filesystem.md)
   * [Singularity Tips and Tricks](common-soft/singularity/singularity-tips-and-tricks.md)
   * [Example - Tensorflow](common-soft/singularity/example-tensorflow.md)
+
+## miscellaneous
+
+* [Version Control](miscellaneous/version-control.md)
 

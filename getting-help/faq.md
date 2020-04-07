@@ -8,29 +8,21 @@ Most inquiries can be directed to CCV’s support address, `support@ccv.brown.ed
 
 ### What are the fees for CCV services?
 
-All CCV services are billed quarterly, and rates can be found [here](../connecting-to-oscar/oscar/account-types/) \(requires a Brown authentication to view\). Questions about rates should be directed to `support@ccv.brown.edu`.
+All CCV services are billed quarterly, and rates can be found on the [rates page](https://ccv.brown.edu/services/rates/) . Questions about rates should be directed to `support@ccv.brown.edu`.
 
 ### How do I acknowledge CCV in a research publication?
 
-We greatly appreciate acknowledgements in research publications that benefited from the use of CCV services or resources.
+We greatly appreciate acknowledgements in research publications that benefited from the use of CCV services or resources.  Please use the following acknowledgement:
 
-## Oscar
+> This research \[Part of this research\] was conducted using \[computational/visualization\] resources and services at the Center for Computation and Visualization, Brown University
 
 ### What is Oscar?
 
 Oscar is our primary research computing cluster with several hundred multi-core nodes sharing a high-performance interconnect and file system. Applications can be run interactively or scheduled as batch jobs.
 
-### How do I request an account on Oscar?
-
-To request an account, please fill out a [New User Account Form](http://pccvwebcit.services.brown.edu/secure/account/). All accounts are subject to our [General Terms and Conditions]().
-
 ### How do I run a job on Oscar?
 
 Sample batch scripts are available in your home directory at `~/batch_scripts` and can be run with the `sbatch <jobscript>` command. For more information, visit our manual page on [Batch Jobs](../connecting-to-oscar/oscar/slurm/shared-machine/batch.md).
-
-### Can I use Oscar for teaching?
-
-See our page on [Academic Classes](https://ccv.brown.edu/services/consulting/student-accounts/)
 
 ### How do I find out when the system is down?
 

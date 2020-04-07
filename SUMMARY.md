@@ -54,7 +54,6 @@
 
 ## Commonly Used Software <a id="common-soft"></a>
 
-* [Commonly Used Software](common-soft/common-soft.md)
 * [Python](common-soft/python-on-oscar.md)
 * [Arm Forge](common-soft/arm-forge/README.md)
   * [Configuring Remote Launch](common-soft/arm-forge/configuring-remote-launch.md)

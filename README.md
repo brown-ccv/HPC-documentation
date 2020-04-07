@@ -16,9 +16,7 @@ For the impatient, here is the Oscar quick start guide:
 
 For more detail, here is our guide to Oscar: 
 
-
-
-We also have documentation for using common software packages on Oscar
+We also have documentation for using common software packages on Oscar.   See the menu on the left. 
 
 
 

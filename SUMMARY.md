@@ -5,6 +5,7 @@
 ## Oscar <a id="connecting-to-oscar"></a>
 
 * [Oscar](connecting-to-oscar/oscar.md)
+* [About Oscar](connecting-to-oscar/about-oscar.md)
 * [Quickstart Guide](connecting-to-oscar/getting-started.md)
 * [Connecting to Oscar](connecting-to-oscar/connecting/README.md)
   * [SSH \(Terminal\)](connecting-to-oscar/connecting/ssh/README.md)

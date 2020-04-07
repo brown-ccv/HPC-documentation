@@ -1,11 +1,11 @@
 # Table of contents
 
-* [Oscar](README.md)
-* [Quickstart Guide](getting-started.md)
-* [Citing CCV](citing-ccv.md)
+* [Welcome](README.md)
 
-## About Oscar <a id="connecting-to-oscar"></a>
+## Oscar <a id="connecting-to-oscar"></a>
 
+* [Oscar](connecting-to-oscar/oscar.md)
+* [Quickstart Guide](connecting-to-oscar/getting-started.md)
 * [Connecting to Oscar](connecting-to-oscar/connecting/README.md)
   * [SSH \(Terminal\)](connecting-to-oscar/connecting/ssh/README.md)
     * [X-Forwarding](connecting-to-oscar/connecting/ssh/x-forwarding.md)
@@ -53,6 +53,7 @@
 
 ## Commonly Used Software <a id="common-soft"></a>
 
+* [Commonly Used Software](common-soft/common-soft.md)
 * [Python](common-soft/python-on-oscar.md)
 * [Arm Forge](common-soft/arm-forge/README.md)
   * [Configuring Remote Launch](common-soft/arm-forge/configuring-remote-launch.md)

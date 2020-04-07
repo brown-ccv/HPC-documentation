@@ -50,11 +50,11 @@ Load an mpi module `module load mpi`. For a list of mpi modules available, `modu
 
 ### What applications are available on Oscar?
 
-Many scientific and HPC software packages are already installed on Oscar, including python, perl, R, Matlab, Mathematica, and Maple. Use the `module avail` command on Oscar to view the whole list or search for packages. See our manual page on [Software](../software/software.md) to understand how software modules work. Additional packages can be requested by submitting a support ticket to `support@ccv.brown.edu`.
+Many scientific and HPC software packages are already installed on Oscar, including python, perl, R, Matlab, Mathematica, and Maple. Use the `module avail` command on Oscar to view the whole list or search for packages. See our manual page on [Software](../software/software/) to understand how software modules work. Additional packages can be requested by submitting a support ticket to `support@ccv.brown.edu`.
 
 ### What compilers are available on Oscar?
 
-By default, the `gcc` compiler is available when you login to Oscar, providing the GNU compiler suite of `gcc` \(C\), `g++` \(C++\), and `gfortran`. We also provide compilers from Intel \(`intel` module\) and the Portland Group \(`pgi` module\). For more information, visit our manual page on [Software](../software/software.md).
+By default, the `gcc` compiler is available when you login to Oscar, providing the GNU compiler suite of `gcc` \(C\), `g++` \(C++\), and `gfortran`. We also provide compilers from Intel \(`intel` module\) and the Portland Group \(`pgi` module\). For more information, visit our manual page on [Software](../software/software/).
 
 ### How do I get information about finished jobs?
 

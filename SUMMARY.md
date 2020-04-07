@@ -6,11 +6,13 @@
 
 ## Connecting to Oscar
 
-* [SSH \(Terminal\)](connecting-to-oscar/ssh/README.md)
-  * [X-Forwarding](connecting-to-oscar/ssh/x-forwarding.md)
-* [VNC \(Virtual Desktop\)](connecting-to-oscar/vnc.md)
-* [CIFS \(Local Mount\)](connecting-to-oscar/cifs.md)
-* [CIFS  non-AD \(Local Mount\)](connecting-to-oscar/cifs-non-ad-local-mount.md)
+* [Connecting to Oscar](connecting-to-oscar/connecting/README.md)
+  * [SSH \(Terminal\)](connecting-to-oscar/connecting/ssh/README.md)
+    * [X-Forwarding](connecting-to-oscar/connecting/ssh/x-forwarding.md)
+    * [Screen](connecting-to-oscar/connecting/ssh/screen.md)
+  * [VNC \(Virtual Desktop\)](connecting-to-oscar/connecting/vnc.md)
+  * [CIFS  non-AD \(Local Mount\)](connecting-to-oscar/connecting/cifs-non-ad-local-mount.md)
+  * [CIFS \(Local Mount\)](connecting-to-oscar/connecting/cifs.md)
 
 ## Accounts on Oscar
 
@@ -38,7 +40,7 @@
     * [Using Globus](managing-files/filesystem/filetransfer/using-globus.md)
   * [Transferring Files between Oscar and files.brown.edu](managing-files/filesystem/filetransfer-isilon.md)
   * [Restoring Deleted Files](managing-files/filesystem/restore.md)
-* [Best Practices for I/O](managing-files/io-best-practices.md)
+  * [Best Practices for I/O](managing-files/filesystem/io-best-practices.md)
 * [Version Control](managing-files/version-control.md)
 
 ## Getting Help
@@ -52,36 +54,22 @@
 
 ## GPU Computing
 
-* [GPUs on Oscar](gpu-computing/gpus.md)
-* [Submitting GPU Jobs](gpu-computing/submit-gpu.md)
-* [Compiling CUDA](gpu-computing/cuda-compiling.md)
+* [GPUs on Oscar](gpu-computing/gpus/README.md)
+  * [Submitting GPU Jobs](gpu-computing/gpus/submit-gpu.md)
+  * [Compiling CUDA](gpu-computing/gpus/cuda-compiling.md)
 
 ## Software
 
-* [Software on Oscar](software/software.md)
-* [Using Modules](software/modules.md)
-* [Python on Oscar](software/python-on-oscar.md)
-* [Python in batch jobs](software/python-in-batch-jobs.md)
-* [Installing Python Packages](software/python-installs.md)
-* [Installing R Packages](software/r-installs.md)
-* [Using CCMake](software/ccmake.md)
-* [Intro to Parallel Programming](software/intro-to-parallel-programming.md)
-* [Screen](software/screen.md)
-
-## Jupyter Notebooks/Labs <a id="jupyter-notebooks"></a>
-
-## Singularity Containers
-
-* [Singularity](singularity-containers/singularity/README.md)
-  * [Intro to Singularity](singularity-containers/singularity/untitled.md)
-  * [Building Images](singularity-containers/singularity/building-images.md)
-  * [Running Images](singularity-containers/singularity/running-images.md)
-  * [Accessing Oscar Filesystem](singularity-containers/singularity/accessing-oscar-filesystem.md)
-  * [Singularity Tips and Tricks](singularity-containers/singularity/singularity-tips-and-tricks.md)
-  * [Example - Tensorflow](singularity-containers/singularity/example-tensorflow.md)
+* [Software on Oscar](software/software/README.md)
+  * [Using Modules](software/software/modules.md)
+  * [Installing software](software/software/installing-software/README.md)
+    * [Installing Python Packages](software/software/installing-software/python-installs.md)
+    * [Installing R Packages](software/software/installing-software/r-installs.md)
+    * [Building from Source](software/software/installing-software/building.md)
 
 ## Commonly Used Software <a id="common-soft"></a>
 
+* [Python](common-soft/python-on-oscar.md)
 * [Arm Forge](common-soft/arm-forge/README.md)
   * [Configuring Remote Launch](common-soft/arm-forge/configuring-remote-launch.md)
   * [Setting Job Submission Settings](common-soft/arm-forge/setting-job-submission-settings.md)
@@ -94,4 +82,11 @@
 * [CESM](common-soft/cesm-1/README.md)
   * [Using a CESM module](common-soft/cesm-1/cesm.md)
   * [Installing your own version of CESM](common-soft/cesm-1/installing-your-own-version-of-cesm.md)
+* [Singularity](common-soft/singularity/README.md)
+  * [Intro to Singularity](common-soft/singularity/untitled.md)
+  * [Building Images](common-soft/singularity/building-images.md)
+  * [Running Images](common-soft/singularity/running-images.md)
+  * [Accessing Oscar Filesystem](common-soft/singularity/accessing-oscar-filesystem.md)
+  * [Singularity Tips and Tricks](common-soft/singularity/singularity-tips-and-tricks.md)
+  * [Example - Tensorflow](common-soft/singularity/example-tensorflow.md)
 

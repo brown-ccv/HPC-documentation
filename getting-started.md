@@ -58,13 +58,13 @@ $ passwd
 
 You will be asked to enter your old password, then your new password twice.
 
-To change your [CIFS](connecting-to-oscar/cifs.md) password, use the command:
+To change your [CIFS](connecting-to-oscar/connecting/cifs.md) password, use the command:
 
 ```text
 $ smbpasswd
 ```
 
-Note if you ask for a password reset from CCV, both the SSH and [CIFS](connecting-to-oscar/cifs.md) password will be reset.
+Note if you ask for a password reset from CCV, both the SSH and [CIFS](connecting-to-oscar/connecting/cifs.md) password will be reset.
 
 Password reset rules:
 
@@ -107,7 +107,7 @@ FILESET data+apollo        11.05T      20T      24T        - |   459764  4194304
 Files not accessed for 30 days may be deleted from your scratch directory. This is because scratch is high performance space. The fuller scratch is the worse the read/write performance. Use ~/data for files you need to keep long term.
 {% endhint %}
 
-A good practice is to configure your application to read any initial input data from `~/data` and write all output into `~/scratch`. Then, when the application has finished, move or copy data you would like to save from `~/scratch` to `~/data`. For more information on which directories are backed up and best practices for reading/writing files, see [Oscar's filesystem](managing-files/filesystem/) and [Best Practices](managing-files/io-best-practices.md). You can go over your quota up to the hard limit for a grace period \(14days\). This grace period is to give you time to manage your files. When the grace period expires you will be unable to write any files until you are back under quota.
+A good practice is to configure your application to read any initial input data from `~/data` and write all output into `~/scratch`. Then, when the application has finished, move or copy data you would like to save from `~/scratch` to `~/data`. For more information on which directories are backed up and best practices for reading/writing files, see [Oscar's filesystem](managing-files/filesystem/) and [Best Practices](managing-files/filesystem/io-best-practices.md). You can go over your quota up to the hard limit for a grace period \(14days\). This grace period is to give you time to manage your files. When the grace period expires you will be unable to write any files until you are back under quota.
 
 ## Software modules
 
@@ -122,15 +122,15 @@ module: loading 'workshop/2.0'
 [mhamilton@login001 ~]$
 ```
 
-For a list of all PyModule commands see [Software Modules](software/software.md). If you have a request for software to be installed on Oscar, email support@ccv.brown.edu.
+For a list of all PyModule commands see [Software Modules](software/software/). If you have a request for software to be installed on Oscar, email support@ccv.brown.edu.
 
 ## Using a Desktop on Oscar
 
-You can connect remotely to a graphical desktop environment on Oscar using CCV's [VNC client](connecting-to-oscar/vnc.md). The CCV VNC client integrates with the scheduling system on Oscar to create dedicated, persistent VNC sessions that are tied to a single user.
+You can connect remotely to a graphical desktop environment on Oscar using CCV's [VNC client](connecting-to-oscar/connecting/vnc.md). The CCV VNC client integrates with the scheduling system on Oscar to create dedicated, persistent VNC sessions that are tied to a single user.
 
 Using VNC, you can run graphical user interface \(GUI\) applications like Matlab, Mathematica, etc. while having access to Oscar's compute power and file system.
 
-For download and installation instructions, [click here](connecting-to-oscar/vnc.md#instructions).
+For download and installation instructions, [click here](connecting-to-oscar/connecting/vnc.md#instructions).
 
 ## Running Jobs
 

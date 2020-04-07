@@ -30,7 +30,7 @@ Do **not** run Matlab on the Oscar login nodes. Request a compute node either wi
 
 ## VNC
 
-The [VNC](../../connecting-to-oscar/vnc.md) client provided by CCV is the best way to launch GUI applications on Oscar, including Matlab. From the terminal emulator in VNC use the `matlab-threaded` command to launch the Matlab GUI. For example,
+The [VNC](../../connecting-to-oscar/connecting/vnc.md) client provided by CCV is the best way to launch GUI applications on Oscar, including Matlab. From the terminal emulator in VNC use the `matlab-threaded` command to launch the Matlab GUI. For example,
 
 ```text
 matlab-threaded

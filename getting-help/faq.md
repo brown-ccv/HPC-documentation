@@ -22,7 +22,7 @@ Oscar is our primary research computing cluster with several hundred multi-core 
 
 ### How do I request an account on Oscar?
 
-To request an account, please fill out a [New User Account Form](http://pccvwebcit.services.brown.edu/secure/account/). All accounts are subject to our [General Terms and Conditions](ccv-user-policies.md).
+To request an account, please fill out a [New User Account Form](http://pccvwebcit.services.brown.edu/secure/account/). All accounts are subject to our [General Terms and Conditions]().
 
 ### How do I run a job on Oscar?
 

@@ -98,7 +98,6 @@
 * [File a Support Ticket](getting-help/ticket.md)
 * [Visit Office Hours](getting-help/office-hours.md)
 * [Meet with CCV Staff](getting-help/meet-ccv.md)
-* [CCV User Policies](getting-help/ccv-user-policies.md)
 
 ## CESM
 

@@ -21,7 +21,7 @@ It has two login nodes and several hundred compute nodes. When users log in thro
 To log in to Oscar you need Secure Shell \(SSH\) on your computer. Mac and Linux machines normally have SSH available. To login in to Oscar, open a terminal and type
 
 ```text
-ssh <username>@ssh.ccv.brown.edu
+ssh -X <username>@ssh.ccv.brown.edu
 ```
 
 Windows users need to install an SSH client. We recommend [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html), a free SSH client for Windows. In PuTTY, use `<username>@ssh.ccv.brown.edu` for the Host Name.
